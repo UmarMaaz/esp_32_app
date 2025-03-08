@@ -7,7 +7,7 @@ const path = require("path");
 const app = express();
 const PORT = 3000;
 const GEMINI_API_KEY = "AIzaSyBcklilewKoMufw_r3zwlFgDqAzuUbujvs";
-const ESP32_URL = "https://7208-39-47-1-51.ngrok-free.app/cam-hi.jpg";
+const ESP32_URL = "http://192.168.96.215/cam-hi.jpg";
 
 app.use(express.static("public"));
 app.use(express.json());
